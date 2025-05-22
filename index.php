@@ -15,7 +15,7 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact Info</a>
         </div>
-    </header>
+    <header>
     
     <div class="col2">
         <div class="section" id="about">
@@ -47,7 +47,7 @@
                 <a id="sociallinks" target="_blank" href="https://www.linkedin.com/in/john-lampouras-b53571351/"><img src="images/linkedin.png" alt="linkedin logo" style="width: 50px;"></a>
                 <a id="sociallinks" target="_blank" href="https://github.com/JohnLamp"><img src="images/github.png" alt="github logo" style="width: 50px;"></a>               
                 
-            </div>  
+            <div>  
             <p>You can also reach me at <a id="mail" href="mailto:johnlamp7@gmail.com">johnlamp7@gmail.com</a></p><br>
             <p>Thank you for visiting my potfolio site!</p>
         <div>
