@@ -8,7 +8,7 @@
 <head>
 <body>
     <header>
-        <h1>John<br>Lampouras</h1><br>
+        <h1>John<br>Lampouras<h1><br>
         <p style="text-decoration: underline;">Full-Stack Developer</p>
         <div id="links">
             <a href="#about">About Me</a>
@@ -50,12 +50,12 @@
             </div>  
             <p>You can also reach me at <a id="mail" href="mailto:johnlamp7@gmail.com">johnlamp7@gmail.com</a></p><br>
             <p>Thank you for visiting my potfolio site!</p>
-        </div>
+        <div>
 
-    </div>
+    <div>
     
-</body>
-</html>
+<body>
+<html>
 
 
 
