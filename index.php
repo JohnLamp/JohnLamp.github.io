@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfoliocss.css">
     <title>Document</title>
-</head>
+<head>
 <body>
     <header>
         <h1>John<br>Lampouras</h1><br>
