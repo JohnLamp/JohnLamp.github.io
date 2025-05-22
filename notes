@@ -1,0 +1,48 @@
+<div class="Us">
+        <img class="imgus" src="images/tolga.jpg" alt="canyon">
+        <div class="text">
+            <h2>Your Go - To Choice for travels!</h2>
+            <p>Here at Legit Company we provide you with travels all over the world!</p>
+        </div>   
+    </div>
+
+
+
+    .Us{
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        width: 50%;
+        padding: 80px 50px;
+    }
+    .Us img{
+        width: 100%;
+        height: 800px;
+        float: left;
+    }
+    .text{
+        float: right;
+        display: table;
+        width: 100%;
+        background-color: rgb(208, 208, 208);
+        color: rgb(75, 43, 55);
+        border: 3px;
+        border-color: rgb(86, 24, 48);
+    }
+    
+
+    @keyframes fadeup{
+        0%{
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+    .sanup{
+        animation-name: fadeup;
+        animation-duration: 1.2s;
+    }

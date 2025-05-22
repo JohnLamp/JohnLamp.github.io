@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="indexstyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="images/wt.png" alt="wt logo" style="width: 70px; float:left;"><br><div class="slidertext"><p>Lorem Ipsum</p></div>
+        <img src="images/inst.jpg" alt="instagram logo" style="width: 40px; float:right;">
+        <img src="images/x.jpg" alt="x logo" style="width: 40px; float:right;">
+        <img src="images/fb.webp" alt="facebook logo" style="width: 40px; float:right;">
+        <p>Lorem Airlines</p>      
+    </header>
+    <div id="secondhead">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#dest">Our Destinations</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="images/wheat.jpg" alt="img1">
+            <img class="slide" src="images/land.jpg" alt="img2">
+            <img class="slide" src="images/forest.jpg" alt="img3">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+    <h2 class="Dest" id="about">About Us</h2>
+    <div class="about">
+        <div class="back">
+            <div class="aboutpic">
+                <img class="abtimg" src="images/sant.jpg" alt="sant">
+            </div>
+        </div>
+        <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam neque quam, interdum in sagittis at, tristique commodo mi.
+            Phasellus ultricies lorem vel mauris maximus, ut blandit felis posuere. 
+            Aliquam aliquam magna quis neque hendrerit iaculis. Cras et ante ligula. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+            ac turpis egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam neque quam, interdum in sagittis at, tristique commodo mi.<br>
+            Phasellus ultricies lorem vel mauris maximus, ut blandit felis posuere. 
+            Aliquam aliquam magna quis neque hendrerit iaculis. Cras et ante ligula. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+            ac turpis egestas.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam neque quam, interdum in sagittis at, tristique commodo mi.
+            Phasellus ultricies lorem vel mauris maximus, ut blandit felis posuere. 
+            Aliquam aliquam magna quis neque hendrerit iaculis. Cras et ante ligula. <br>
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+            ac turpis egestas.</p>
+            <button>Learn more</button>
+        </div>
+          
+    </div>
+
+    <h2 class="Dest" id="dest">Our Destinations</h2>
+
+    <div class="destanim">
+        <div class="imgDest">
+            <img class="sanup animationup" src="images/sant.jpg" alt="santorini">
+            <img class="cadown animationdown" src="images/cal.jpg" alt="california">
+            <img class="venup animationup" src="images/ven.jpg" alt="venice">
+            <img class="bradown animationdown" src="images/brazil.jpg" alt="brazil">
+            <img class="geoup animationup" src="images/geo.jpg" alt="georgia">
+        </div>
+    </div>
+    <p style="text-align: center; padding: top 30px;">Choose from the greatest places on earth
+        to go on a trip you will never forget!
+    </p>
+    <div class="costs">
+        <h3>Unsure about the travel costs?</h3>
+        <p>Our Call Centers Work 24/7 to ensure your plans are on schedule!</p>
+    </div>
+
+    <h2 class="Dest" style="margin-top: 20px;">Contact Us</h2>
+
+    <div class="contact" id="contact">
+        <div class="context">
+            <form>
+                <h2>Let us know about your future trips and ideas!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="Your First Name...">
+                <label for="lname">Last Name</label>
+                <input type="text" placeholder="Your Last Name...">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Your E-mail...">
+                <label for="country">Country</label>
+                <select>
+                    <option value="greece">Greece</option>
+                    <option value="usa">USA</option>
+                    <option value="armenia">Armenia</option>
+                    <option value="austria">Austria</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" placeholder="Write something..." style="height:200px"></textarea>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="conimg">
+            <img src="images/peter-thomas.jpg" alt="elephant">
+        </div>        
+    </div>
+    
+    <footer>
+        <div class="Faddress">
+            <h3>Address:</h3>
+            <a href="#">Colorado, USA<br>420 Sat Ave</a>
+        </div>
+        <div class="Fpages">
+            <h3>Pages:</h3>
+            <a href="#">About Us</a>
+            <a href="#">Our Destinations</a>
+            <a href="#">Calculate Costs</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="Fhours">
+            <h3>Opening Hours:</h3>
+            <p>Mon - Fri:</p>
+            <p>10am - 7pm</p>
+            <p>Sat - Sun:</p>
+            <p>11am - 4pm</p>
+        </div>
+    </footer>
+    <script src="indexop.js"></script>
+    <script src="indexanim.js"></script>
+    
+</body>
+</html>
