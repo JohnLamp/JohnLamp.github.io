@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfoliocss.css">
-    <title>Portfolio Site</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="show">
+
+        <button id="slide" class="slide" style="align-items: left;" onclick="headershow()">&#10094</button>
         <h1>John<br>Lampouras</h1><br>
         <p style="text-decoration: underline;">Full-Stack Developer</p>
         <div id="links">
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact Info</a>
+            <a href="#about" onclick="hideheader()">About Me</a>
+            <a href="#projects" onclick="hideheader()">Projects</a>
+            <a href="#contact" onclick="hideheader()">Contact Info</a>
         </div>
     </header>
     
     <div class="col2">
+        <button  class="slide" style="align-items: left;" onclick="headershow()">&#10095</button>
         <div class="section" id="about">
             <h1>About Me</h1>
             <p>My name is John. I'm a recent graduate of the University of Digital Industry Technologies at Psachna, Greece.</p>
@@ -29,7 +32,7 @@
 
         <div class="section" id="projects">
             <h1>Projects</h1>
-            <div id="node"><a id="link" href="portfolio.html">
+            <div class="img1" id="node"><a id="link" href="portfolio.html">
                 <h3>Travel Company Mock-Up Site</h3>
                 <small>A small site about a travel company.</small>
             </a>
@@ -54,6 +57,33 @@
         </div>
 
     </div>
+    <script>
+        function headershow()
+        {
+            var x = document.getElementById("show");
+            var y = document.getElementById("slide");
+            if (x.style.display === "block")
+                {
+                x.style.display = "none";
+                y.style.display = "block";
+                }
+            else
+                {
+                x.style.display = "block";
+                y.style.display = "none";
+                }
+        }
+
+        function hideheader(){
+            var x = document.getElementById("show");
+            var y = document.getElementById("slide");
+            if (x.style.display === "block")
+                {
+                x.style.display = "none";
+                y.style.display = "block";
+                }
+        }
+    </script>
     
 </body>
 </html>

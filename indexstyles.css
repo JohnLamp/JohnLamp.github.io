@@ -5,8 +5,8 @@ html{
 
 body{
     margin: 0 auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(236, 236, 236);
+    font-family: serif;
+    background-color: rgb(224, 224, 224);
 }
 
 header{
@@ -33,6 +33,7 @@ header{
     float: left;
     text-decoration: none;
     padding: 10px 20px;
+    font-size: 20px;
 }
 #secondhead a:hover{
     background-color: gray;
@@ -151,7 +152,7 @@ img.displaySlide{
     margin-top: 180px;
     margin-left: 400px;
     margin-right: 200px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .about button{
     margin-left: 400px;
@@ -256,7 +257,7 @@ footer{
     padding: 20px;
     text-align: center;
     font-size: 20px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(155, 154, 111);
     justify-content: center;
     width: 60%;
     margin: auto;
@@ -282,7 +283,10 @@ label{
 .contact img{
     width: 600px;
 }
-@media only screen and (max-width: 750px) {
+
+
+
+@media only screen and (max-width: 1950px) {
   /* For mobile phones: */
   .slider,.back{
     width: 100%;
@@ -301,12 +305,12 @@ label{
     width: 80%;
     justify-content: center;
   }
-  .aboutpic img{
+  .about{
+    margin: auto;
     width: 100%;
-    margin-left: 10%;
   }
   .about p{
-    margin-left: 0%;
+    margin-left: auto;
     width: 100%;
   }
   .about button{
@@ -319,5 +323,4 @@ label{
     justify-content: center;
   }
 }
-
   
