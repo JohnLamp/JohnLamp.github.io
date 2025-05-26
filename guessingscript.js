@@ -58,7 +58,7 @@ function playlvl3(){
 
 function answers1(){
     if (input.value === guess1){
-        document.getElementById('ans').style.animation ="grow 2s linear";
+        
         document.getElementById('ans').innerHTML = "Correct!";
     }
     else{
@@ -68,7 +68,7 @@ function answers1(){
 
 function answers2(){
     if (input2.value === guess2){
-        document.getElementById('ans').style.animation ="grow 2s";
+        
         document.getElementById('ans').innerHTML = "Correct!";
         
     }
@@ -78,6 +78,7 @@ function answers2(){
 }
 function answers3(){
     if (input3.value === guess3){
+        
         document.getElementById('ans').innerHTML = "Correct!";
     }
     else{
